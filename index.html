@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Comidas - São João</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <img src="imagens/bandeira.png" height= "250"
+   >
+    <h1>Lista de Comidas para o São João</h1>
+
+    <form action="https://lilithdde14@gmail.com" method="POST">
+  <label>Seu nome:</label><br>
+  <input type="text" name="nome" required><br><br>
+
+  <label>O que você vai levar?</label><br>
+  <select name="comida" required>
+    <option value="">-- Escolha uma opção --</option>
+    <option value="Pipoca">Pipoca</option>
+    <option value="Milho cozido">Milho cozido</option>
+    <option value="Cachorro quente">Cachorro quente</option>
+    <option value="Bolo de milho">Bolo de milho</option>
+    <option value="Pastel">Pastel</option>
+    <option value="Paçoca">Paçoca</option>
+    <option value="Pamonha">Pamonha</option>
+    <option value="Milho cozido">Milho cozido</option>
+  </select><br><br>
+
+  <!-- Campos extras para funcionar bem -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+  <button type="submit">Enviar</button>
+</form>
+
+ <script src="script.js"></script>
+</body>
+</html>
